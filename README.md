@@ -26,9 +26,9 @@ You can cite this paper as:
 This is an official implementation code of "Learning 2D Human Poses for Better 3D Lifting via Multi-Model 3D-Guidance". In this work, we present a method of training the 2D pose detector to perform better in 3D lifting using 3D data. Plug-and-play is possible for the 2D pose detector and 3D lifting network that the user wants.
 
 ## Datasets
-- Human3.6M dataset can be downloaded from the official cite of [Human3.6M Dataset](http://vision.imar.ro/human3.6m/description.php).
+- _**Human3.6M**_ dataset can be downloaded from the official cite of [Human3.6M Dataset](http://vision.imar.ro/human3.6m/description.php).
 
-- Panoptic dataset can be downloaded from the official cite of [CMU Panoptic Dataset](http://domedb.perception.cs.cmu.edu/).
+- _**Panoptic**_ dataset can be downloaded from the official cite of [CMU Panoptic Dataset](http://domedb.perception.cs.cmu.edu/).
   
 We provide the data preprocessing code necessary for the 3D-guided training method we presented.
 
