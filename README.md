@@ -4,6 +4,7 @@ The code for the ACCV 2024 paper "Learning 2D Human Poses for Better 3D Lifting 
 
 You can cite this paper as: 
 
+```
 @InProceedings{Lee_2024_ACCV,
     author    = {Lee, Sanghyeon and Hwang, Yoonho and Lee, Jong Taek},
     title     = {Learning 2D Human Poses for Better 3D Lifting via Multi-Model 3D-Guidance},
@@ -12,6 +13,7 @@ You can cite this paper as:
     year      = {2024},
     pages     = {3344-3361}
 }
+```
 
 ## Overview
 
