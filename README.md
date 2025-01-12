@@ -28,6 +28,8 @@ This is an official implementation code of "Learning 2D Human Poses for Better 3
 ## Datasets
 - _**Human3.6M**_ dataset can be downloaded from the official cite of [Human3.6M Dataset](http://vision.imar.ro/human3.6m/description.php).
 
+  - The preprocessing of the Human3.6M dataset follows the code provided [here](https://github.com/anibali/h36m-fetch). Please follow the instructions in the repository.
+  
 - _**Panoptic**_ dataset can be downloaded from the official cite of [CMU Panoptic Dataset](http://domedb.perception.cs.cmu.edu/).
 
 The data directory tree should look like this:
