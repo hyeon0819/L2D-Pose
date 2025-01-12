@@ -29,6 +29,30 @@ This is an official implementation code of "Learning 2D Human Poses for Better 3
 - _**Human3.6M**_ dataset can be downloaded from the official cite of [Human3.6M Dataset](http://vision.imar.ro/human3.6m/description.php).
 
 - _**Panoptic**_ dataset can be downloaded from the official cite of [CMU Panoptic Dataset](http://domedb.perception.cs.cmu.edu/).
+
+The data directory tree should look like this:
+```
+${ROOT}
+|-- data_3d
+    |-- h36m <- _Human3.6M dataset_
+        |-- S1
+            |-- Directions-1
+                |-- imageSequence
+                |-- annot.pkl
+            |-- Directions-2
+            |-- ...
+        |-- ...
+        |-- S11
+        |-- camera_parameters.json
+    |-- panoptic <- _CMU Panoptic dataset_
+        |-- 161029_piano2
+            |-- hdImgs
+            |-- hdPose3d_stage_1_coco19
+            |-- calibration_161029_piano2.json
+        |-- ...
+        |-- 171204_pose1
+        |-- panoptic_stats.pkl
+```
   
 We provide the data preprocessing code necessary for the 3D-guided training method we presented.
 
